@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Rice Purity Test</title>
+    <meta name="description" content="Loyola University Chicago Rice Purity Test">
+    <meta name="keywords"
+        content="rice purity test, rice purity, Rice Purity Test, Rice purity, Rice purity test, Rice purity test">
+    <meta name="theme-color" content="#08526e">
+    <link rel="icon" type="image/png"
+        href="https://cdn.discordapp.com/attachments/489147805215227907/778994969226379264/thonkity.png" />
+    <!--Was too lazy to link the image somewhere else-->
+    <!--Main scipt-->
+    <script src="script.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<html>
+
+<body>
+    <h1>Rice Purity Test</h1>
+    <h2>This is a replica of <a href="https://ricepurity.github.io" target="_blank">the rice purity test</a> edited to apply to Loyola University Chicago. You can visit the source code <a href="https://github.com/kacp3rrr/Rice-Purity-Test" target="_blank">here.</a></h2>
+    <br>
+    <div id="score"></div>
+    <br>
+    <div id="meaning"></div>
+    <br><br>
+    <div id="buttondiv">
+        <input class="button" id="refresh" type="submit" value="Clear Page" onClick="clearPage()">
+    </div>
+    <br>
+    <div id="list">
+        <ol>
+            <li> <input type="checkbox" id="1"> Eaten at the Damen Dining Hall?
+            <li> <input type="checkbox" id="2"> Eaten at the Deno Dining Hall?
+            <li> <input type="checkbox" id="3"> Eaten at the Simpson Dining Hall?
+            <li> <input type="checkbox" id="4"> Been called "baby" by Fran?
+            <li> <input type="checkbox" id="5"> Gone to a Loyola Basketball Game?
+            <li> <input type="checkbox" id="6"> Built a 'Bler?
+            <li> <input type="checkbox" id="7"> Encountered Sister Jean?
+            <li> <input type="checkbox" id="8"> Visited Cane's at an ungodly hour?
+            <li> <input type="checkbox" id="9"> Been subjected to the 2am Taco Bell line?
+            <li> <input type="checkbox" id="10"> Feared for your life in an elevator?
+            <li> <input type="checkbox" id="11"> Visited Mertz Hall?
+            <li> <input type="checkbox" id="12"> Stayed overnight in a dorm that's not yours?
+            <li> <input type="checkbox" id="13"> Gone to Bruno's?
+            <li> <input type="checkbox" id="14"> Gone to Oasis?
+            <li> <input type="checkbox" id="15"> Gone to McGee's?
+            <li> <input type="checkbox" id="16"> Gotten harassed on the Redline?
+            <li> <input type="checkbox" id="17"> Gone to Bounce?
+            <li> <input type="checkbox" id="18"> Froze on the way to the function?
+            <li> <input type="checkbox" id="19"> Gone to a Frat or Sorority Party?
+            <li> <input type="checkbox" id="20"> Swam in the Lake?
+            <li> <input type="checkbox" id="21"> Had a Beach Party?
+            <li> <input type="checkbox" id="22"> Considered dropping out?
+            <li> <input type="checkbox" id="23"> Skipped Class?
+            <li> <input type="checkbox" id="24"> Begrudgingly taken the Mundy Stairs?
+            <li> <input type="checkbox" id="25"> Spent over two hours in the IC?
+            <li> <input type="checkbox" id="26"> Gone to Trader Todds?
+            <li> <input type="checkbox" id="27"> Visited the Bean?
+            <li> <input type="checkbox" id="28"> Hooked Up with a Depaul student?
+            <li> <input type="checkbox" id="29"> Hooked Up with a Colombia Student?
+            <li> <input type="checkbox" id="30"> Interacted with a Quinlan School of Business Student?
+            <li> <input type="checkbox" id="31"> Considered dropping out for financial reasons?
+            <li> <input type="checkbox" id="32"> Watched the sunrise?
+            <li> <input type="checkbox" id="33"> Protested?
+            <li> <input type="checkbox" id="34"> Fallen out of your twin xl?
+            <li> <input type="checkbox" id="35"> Fallen out of someone elses twin xl?
+            <li> <input type="checkbox" id="36"> Slept with someone in a twin xl?
+            <li> <input type="checkbox" id="37"> Had sex in a twin xl?
+            <li> <input type="checkbox" id="38"> Activated the fire alarm in your dorm building?
+            <li> <input type="checkbox" id="39"> Ran for the shuttle?
+            <li> <input type="checkbox" id="40"> Gotten ill from the dining hall food?
+            <li> <input type="checkbox" id="41"> Visited a Chicago museum?
+            <li> <input type="checkbox" id="42"> Masturbated while a roommate was home?
+            <li> <input type="checkbox" id="43"> Kicked or been kicked out by a roommate?
+            <li> <input type="checkbox" id="44"> Dropped a class?
+            <li> <input type="checkbox" id="45"> Won in pong?
+            <li> <input type="checkbox" id="46"> Played Rage Cage?
+            <li> <input type="checkbox" id="47"> Gone to class hungover?
+            <li> <input type="checkbox" id="48"> Hidden illicit substances from parents during a visit?
+            <li> <input type="checkbox" id="49"> Trown up or been thrown up on on the train?
+            <li> <input type="checkbox" id="50"> Smoked on the train?
+            <li> <input type="checkbox" id="51"> Used an illicit substance that was not your own on the train?
+            <li> <input type="checkbox" id="52"> Struggled to get your perscription transfered or accepted at a Chicago pharmacy?
+            <li> <input type="checkbox" id="53"> Been written up in an Incidant Report?
+            <li> <input type="checkbox" id="54"> Peed in an alley?
+            <li> <input type="checkbox" id="55"> Gotten alcohol poisoning?
+            <li> <input type="checkbox" id="56"> Done the walk of shame?
+            <li> <input type="checkbox" id="57"> Gotten refused from the club or bar?
+            <li> <input type="checkbox" id="58"> Paid a cover over $10?
+            <li> <input type="checkbox" id="59"> Gone to a school function drunk?
+            <li> <input type="checkbox" id="60"> Gone to a school function high?
+            <li> <input type="checkbox" id="61"> Hang from the CTA stability bars?
+            <li> <input type="checkbox" id="62"> Visited a professor during office hours?
+            <li> <input type="checkbox" id="63"> Smoked out the dorm window?
+            <li> <input type="checkbox" id="64"> Hotboxed the dorm?
+            <li> <input type="checkbox" id="65"> Ran into someone you know at the smoke spot?
+            <li> <input type="checkbox" id="66"> Pet an alley cat?
+            <li> <input type="checkbox" id="67"> Picked up an alley cat?
+            <li> <input type="checkbox" id="68"> Crossed paths with a rat?
+            <li> <input type="checkbox" id="69"> in a twil xl?
+            <li> <input type="checkbox" id="70"> Stolen from a dining hall?
+            <li> <input type="checkbox" id="71"> Gotten a flash tat at Fudo?
+            <li> <input type="checkbox" id="72"> Pierced your nose, bellybutton, or ear?
+            <li> <input type="checkbox" id="73"> Had sex on the quad?
+            <li> <input type="checkbox" id="74"> Had sex on the beach?
+            <li> <input type="checkbox" id="75"> Had sex in a Loyola Campus academic building?
+            <li> <input type="checkbox" id="76"> Muffle cried so your roommate doesnt notice?
+            <li> <input type="checkbox" id="77"> Gotten into a relationship at school?
+            <li> <input type="checkbox" id="78"> Visited your college partner?
+            <li> <input type="checkbox" id="79"> Had sex while a roommate was in the same room?
+            <li> <input type="checkbox" id="80"> Use a condom from free condom friday?
+            <li> <input type="checkbox" id="81"> Participated in a &ldquo;booty call&rdquo; on a weeknight?
+            <li> <input type="checkbox" id="82"> Traveled 100 or more miles to see someone you met from school?
+            <li> <input type="checkbox" id="83"> Taken a drug stronger than weed at school?
+            <li> <input type="checkbox" id="84"> Blacked out?
+            <li> <input type="checkbox" id="85"> Gone on a bender that lasted longer than 5 days?
+            <li> <input type="checkbox" id="86"> Gotten a STI test due to reasonable suspicion?
+            <li> <input type="checkbox" id="87"> Gotten a STI?
+            <li> <input type="checkbox" id="88"> Had a threesome?
+            <li> <input type="checkbox" id="89"> Gained over 10 bodies since coming to school?
+            <li> <input type="checkbox" id="90"> Gone home with someone you met at the club or bar?
+            <li> <input type="checkbox" id="91"> Stayed overnight at a non-Loyola dorm?
+            <li> <input type="checkbox" id="92"> Been on Barstool Blers?
+            <li> <input type="checkbox" id="93"> Had an incident with the campus police?
+            <li> <input type="checkbox" id="94"> Had an incident with the Chicago police?
+            <li> <input type="checkbox" id="95"> Had a pregnancy scare?
+            <li> <input type="checkbox" id="96"> Gotten or gotten someone pregnate?
+            <li> <input type="checkbox" id="97"> Paid or been paid for a sexual act?
+            <li> <input type="checkbox" id="98"> Gotten an abortion?
+            <li> <input type="checkbox" id="99"> Played Quidditch on the quad?
+            <li> <input type="checkbox" id="100"> Engaged in bestiality, aka, had sex with a 'bler?
+        </ol>
+
+        <input class="button" id="submit" type="submit" value="Calculate Score" onClick="calculateScore()">
+        <input class="button" id="reset" type="submit" value="Clear Boxes" onClick="clearBoxes()">
+        <h5><a href="https://ricepurity.github.io" target="_blank">Original Rice Purity Test</a><br><a href="https://www.society19.com/the-rice-purity-test/#:~:text=As%20I%20mentioned%20earlier%2C%20the,re%20as%20pure%20as%20gold." target="_blank">Score Meanings</a><br><a href="https://kacp3r.xyz" target="_blank">Check Out More of my Projects</a></h5>
+        <div>
+</body>
+
+</html>
